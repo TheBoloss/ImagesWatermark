@@ -36,13 +36,7 @@ if ($sourceHandle)
             if ($mt == 'image/jpeg') imagejpeg($image, $destFilePath);
             elseif ($mt == 'image/png') imagepng($image, $destFilePath);
             echo "✅ Watermark added to:    $sourceFile\n";
-            // else
-            // {
-            //     echo "File $sourceFile is not an image\n";
-            // }
         }
     }
 }
 closedir($sourceHandle);
-
-// var_dump($sourceFiles);
