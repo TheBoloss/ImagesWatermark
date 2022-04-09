@@ -17,3 +17,7 @@ php ImagesWatermark.php SourceFolder DestFolder
 
 - ### After
     ![](example/after.jpg)
+
+## License
+
+This script is under MIT License. [LICENSE.md](LICENSE.md)
